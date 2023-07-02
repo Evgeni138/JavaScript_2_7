@@ -1,0 +1,149 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 187.5px);
+        padding-right: calc(50% - 187.5px);
+    }
+
+    .head__into {
+        width: 360px;
+        margin-left: 16px;
+        margin-right: 16px;
+
+        &__left {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        &__right {
+            padding-right: 0;
+            margin-right: 16px;
+            gap: 0;
+            justify-content: flex-end;
+        }
+    }
+
+    // .icon1 {
+    //     margin-right: 32px;
+    // }
+
+    .icon4 {
+        display: none;
+    }
+
+    .icon5 {
+        display: none;
+    }
+
+    .top {
+        width: 375px;
+        height: 363px;
+        position: relative;
+
+        &__man {
+            display: none;
+        }
+
+        &__brand {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: auto;
+        }
+
+        &_img2 {
+            margin-left: 0;
+        }
+
+        &_text {
+            width: 236px;
+        }
+
+        &_brand_text {
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        &_black {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        &_pink {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    .middel {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 375px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+        &_big {
+            width: 343px;
+            height: 111px;
+        }
+
+        &_overlay_img_big {
+            width: 738px;
+        }
+
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &_content_fill {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &_content_right {
+            width: 343px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+
+        &_content_left {
+            width: 343px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+
+        &_footer {
+            height: 143px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            &_text {
+                margin: 0;
+                justify-content: center;
+            }
+        }
+
+        &_form {
+            min-height: 39px;
+        }
+    }
+}
